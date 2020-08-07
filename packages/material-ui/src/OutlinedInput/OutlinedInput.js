@@ -77,6 +77,7 @@ export const styles = (theme) => {
         WebkitTextFillColor: theme.palette.type === 'light' ? null : '#fff',
         caretColor: theme.palette.type === 'light' ? null : '#fff',
         borderRadius: 'inherit',
+        backgroundClip: 'content-box',
       },
     },
     /* Styles applied to the `input` element if `margin="dense"`. */

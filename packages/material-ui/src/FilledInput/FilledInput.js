@@ -118,6 +118,7 @@ export const styles = (theme) => {
         caretColor: theme.palette.type === 'light' ? null : '#fff',
         borderTopLeftRadius: 'inherit',
         borderTopRightRadius: 'inherit',
+        backgroundClip: 'content-box',
       },
     },
     /* Styles applied to the `input` element if `margin="dense"`. */
